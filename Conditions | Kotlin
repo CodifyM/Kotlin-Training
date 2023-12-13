@@ -1,0 +1,21 @@
+fun main() {
+    val x = 5
+    val y = 6
+    
+    when (x) {
+        2 -> println("Second")
+        3 -> println("Third")
+        4 -> println("Fourth")
+        9 -> println("Fifth")
+        1,2,6,8 -> println("If any one matches then this is going to work")
+        else -> println("nothing can happen now")
+    }
+    
+    when (y) {
+        1,2,3,4,5,6 -> println("If there's any reference that can make the")
+    }
+    
+    when (8) {
+        in 1..100 -> println("its between 1 and 100")
+    }
+}
