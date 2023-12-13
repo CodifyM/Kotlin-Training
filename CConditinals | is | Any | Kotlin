@@ -1,0 +1,29 @@
+fun main() {
+    val x = 5
+    val y = 6
+    
+    val z : Any = "Hello"  // although u r not required to specify the data type; but u may need in certain circumstances.
+                           // so by specifying Any gives that variable the ability to mutate itself to any data type... Also, I mean
+                           // u can us it to ur advantage.
+    
+    when (x) {
+        2 -> println("Second")
+        3 -> println("Third")
+        4 -> println("Fourth")
+        9 -> println("Fifth")
+        1,2,6,8 -> println("If any one matches then this is going to work")
+        else -> println("nothing can happen now")
+    }
+    
+    when (y) {
+        1,2,3,4,5,6 -> println("If there's any reference that can make the")
+    }
+    
+    when (8) {
+        in 1..100 -> println("its between 1 and 100")
+    }
+    
+    when ("Hello") {
+        is String -> println("It is an String")
+    }
+}
