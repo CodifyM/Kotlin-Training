@@ -1,0 +1,6 @@
+fun main() {
+   
+   	var something:String? = "Abhishek"
+    println(something?.length)
+    
+}
