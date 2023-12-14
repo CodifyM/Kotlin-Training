@@ -1,0 +1,13 @@
+fun main() {
+    
+    // shortcut way of writing code
+    var abhishek = "Kumar"
+    var result = if (abhishek == "Kumar") {
+        abhishek.length
+    } else {
+        0
+    }
+    
+    println(result)
+    
+}
