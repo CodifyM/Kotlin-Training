@@ -1,0 +1,12 @@
+fun main() {
+    val Something = 4
+    
+	when (Something) {
+        
+        1 -> println("1")
+        2,3,4 -> println("4")
+        
+        
+    }
+	
+}
