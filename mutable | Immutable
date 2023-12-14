@@ -1,0 +1,33 @@
+fun main() {
+    
+        
+    val trafficLightColor = "Amber"
+
+    val message = when(trafficLightColor) {
+        "Red" -> "Stop"
+        "Yellow", "Amber" -> "Slow"
+        "Green" -> "Go"
+        else -> "Invalid traffic-light color"
+    }
+    println(message)
+    
+    val xx = 1
+    val result = when (xx) {
+        1 -> "Console Error"
+        else -> "Else Block"
+    }
+    println(result)
+    
+    var abhishek:String? = "NamingConvention"
+    println(abhishek)
+    abhishek = "Hydrogen"
+    println(abhishek)
+    
+    abhishek = null
+    println(abhishek)
+    
+    abhishek = "Should display"
+    println(abhishek)
+    
+
+}
