@@ -1,0 +1,18 @@
+fun main() {
+    val smartTvDevice = SmartDevice()
+    smartTvDevice.turnOn()
+    smartTvDevice.turnOff()
+}
+
+
+class SmartDevice {
+    fun turnOn() {
+        println("Smart Device will be turned ON")
+    }
+    
+    fun turnOff() {
+        println("Smart Device will be turned OFF")
+    }
+}
+
+
