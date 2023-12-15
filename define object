@@ -1,0 +1,31 @@
+//below code is written in a seperate KOTLIN FILE named: MainActivity.kt
+
+package com.one
+
+fun main() {
+
+     var smartTvDevice = SmartDevice()
+     println("Device Name is ${smartTvDevice.name}")
+     smartTvDevice.turnOn()
+     smartTvDevice.turnOff()
+
+}
+
+//below code is written in a seperate KOTLIN FILE named: SmartDevice.kt
+
+package com.one
+
+class SmartDevice {
+
+    val name = "Android TV"
+    val category = "Entertainment"
+    var deviceStatus = "online"
+
+    fun turnOn() {
+        println("Turn On the lights when needed")
+    }
+
+    fun turnOff() {
+        println("Turn Off the lights when not needed")
+    }
+}
